@@ -11,8 +11,8 @@ ACCOUNT_SID = os.environ.get("ACCOUNT_SID")  # TWILIO ACCOUNT SID
 AUTH_TOKEN = os.environ.get("AUTH_TOKEN")  # TWILIO AUTH TOKEN
 
 # example with lat and lon -
-# https: // api.openweathermap.org / data / 2.5 / forecast?lat = 37.931961 & lon = -121.695930 & appid = 1176e9ae092df65480e70f96400cb3a6
-# https://api.openweathermap.org/data/3.0/onecall?lat=37.931961&lon=-121.695930&appid=1176e9ae092df65480e70f96400cb3a6&units=imperial
+# https: // api.openweathermap.org / data / 2.5 / forecast?lat = 37.931961 & lon = -121.695930 & appid =API_KEY
+# https://api.openweathermap.org/data/3.0/onecall?lat=37.931961&lon=-121.695930&appid=API_KEY&units=imperial
 
 WEATHER_SITE = "https://api.openweathermap.org/data/3.0/onecall"
 LAT = 'YourLatitude'
